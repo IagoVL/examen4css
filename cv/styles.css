@@ -198,7 +198,7 @@
 	background-size:cover;
 	overflow: hidden;
 	border: 10px solid #EEE5E5;
-	outline: 5px dashed #EEE5E5;
+
 
 }
 #e2_9:hover img {
@@ -206,6 +206,7 @@
 	z-index: 9;
 }
 .box-text {
+	float: center;
 	width: 100%;
 	height: 100%;
 	position: absolute;
