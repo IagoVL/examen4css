@@ -182,7 +182,6 @@
 	background-size:cover;
 }
 #e2_9 { 
-	
 	opacity:1;
 	width:143px;
 	height:140.7421112060547px;
@@ -196,42 +195,19 @@
 	background-image:url(images/ewhatsapp_image_2021_02_18_at_09_37_1.png);
 	background-repeat:no-repeat;
 	background-size:cover;
-	overflow: hidden;
-	border: 10px solid #EEE5E5;
+	
+}
+#img_e2_9{
 
+		transform: scale(1.2, 1.2);
+		z-index: 9;
 
 }
+
 #e2_9:hover img {
 	transform: scale(1.2, 1.2);
 	z-index: 9;
 }
-.box-text {
-	float: center;
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 3;
-	padding: 10px;
-    background-image: linear-gradient( 135deg, rgba(129, 255, 239, 0.50) 10%, rgba(240, 103, 180, 0.65) 100%);
-	opacity: 1;
-	transition: 0.3s linear;
-	color: #FFF;
-	font-family: 'Bellefair', serif;
-font-family: 'Satisfy', cursive;
-	text-shadow: 2px 2px 2px #333;
-	
-}
-.box-text h1 {
-	font-size: 2.2em;
-	font-family: 'Bellefair', serif;
-font-family: 'Comfortaa', cursive;
-}
-.box-text p {font-size: 1.5em;}
-.box-text:hover{opacity: 0;}
-
-
 #e2_10 { 
 	color:rgba(255, 255, 255, 1);
 	opacity:1;
