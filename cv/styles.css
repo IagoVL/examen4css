@@ -181,20 +181,17 @@
 	background-repeat:no-repeat;
 	background-size:cover;
 }
-#e2_9 { 
-	opacity:1;
-	width:143px;
-	height:140.7421112060547px;
-	position:absolute;
-	left:40px;
-	top:48px;
-	border-top-left-radius:75px;
-	border-top-right-radius:75px;
-	border-bottom-left-radius:75px;
-	border-bottom-right-radius:75px;
-	background-image:url(images/ewhatsapp_image_2021_02_18_at_09_37_1.png);
-	background-repeat:no-repeat;
-	background-size:cover;
+
+svg{
+  background:url('https://farm9.staticflickr.com/8760/17195790401_ceeeafcddb_o.jpg');
+  background-size:cover;
+  width:40vmin; height:auto;
+  display:block;
+  margin:30vmin auto;
+}
+svg:hover text{
+  transition:font-size .4s ease-in;
+  font-size: 300px;
 }
 #e2_10 { 
 	color:rgba(255, 255, 255, 1);
